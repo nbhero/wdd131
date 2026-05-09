@@ -108,8 +108,7 @@
 }
 
 .aside a {
-    color: var(--accent-color);
-    text-decoration: none;
+    color: var(--secondary-color);
     font-family: var(--secondary-font);
     font-weight: 500;
     line-height: 1.5;
@@ -135,5 +134,8 @@ footer {
     .navigation {
         flex-direction: column;
         align-items: center;
+    }
+    .navigation li {
+        margin: 10px 0;
     }
 }
