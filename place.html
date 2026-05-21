@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortaleza - Brazil</title>
+    <link rel="stylesheet" href="./styles/place.css">
+    <script src="./scripts/place.js" defer></script>
+    <script src="./scripts/weather.js" defer></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1 id="city">Fortaleza</h1>
+        </header>
+
+        <section class="hero">
+            <picture class="hero-picture">
+            
+                <source srcset="./images/hero-large.webp" media="(min-width: 901px)">
+            
+                <source srcset="./images/hero-small.webp" media="(max-width: 900px)">
+            
+                <img src="./images/hero-large.webp" alt="Fortaleza Brazil Landscape" class="hero-image">
+            
+            </picture>
+
+            <div class="card">
+
+                <div class="card-title">
+                    Data
+                </div>
+
+                <div class="card-content">
+
+                    <div class="mobile-heading">
+                        Data
+                    </div>
+
+                    <p>
+                        <strong>Area:</strong>
+                        312.353 km²
+                    </p>
+
+                    <p>
+                        <strong>Population:</strong>
+                        2.7 Million
+                    </p>
+
+                    <p>
+                        <strong>Country:</strong>
+                        Brazil
+                    </p>
+
+                    <p>
+                        <strong>State:</strong>
+                        Ceará
+                    </p>
+
+                    <p>
+                        <strong>Language:</strong>
+                        Portuguese
+                    </p>
+
+                    <p>
+                        <strong>Currency:</strong>
+                        Brazilian Real (BRL)
+                    </p>
+
+                    <p>
+                        <strong>Time Zone:</strong>
+                        UTC−3
+                    </p>
+
+                    <p>
+                        <strong>Calling Code:</strong>
+                        +55
+                    </p>
+
+                    <p>
+                        <strong>Internet TLD:</strong>
+                        .br
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="card-title weather-title">
+                    Weather
+                </div>
+
+                <div class="card-content weather">
+
+                    <div class="mobile-heading">
+                        Weather
+                    </div>
+
+                    <p>
+                        <strong>Temperature:</strong>
+                        <span id="temp"></span>
+                    </p>
+
+                    <p>
+                        <strong>Conditions:</strong>
+                        <span id="condition"></span>
+                    </p>
+
+                    <p>
+                        <strong>Wind:</strong>
+                        <span id="wind"></span>
+                    </p>
+
+                    <p>
+                        <strong>Wind Chill:</strong>
+                        <span id="chill"></span>
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <footer>
+            <p>©<span id="currentyear"></span> Bruno Rafael Torres Candido</p>
+            <p>Last Modification:<span id="lastModified"></span></p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
