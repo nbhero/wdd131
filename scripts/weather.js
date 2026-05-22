@@ -2,12 +2,7 @@ const apiKey = "a209ea9d26b2c89a9c0c101eebef022c";
 const apiURL = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
 function calculateWindChill(temp, speed) {
-    return (
-        13.12 +
-        0.6215 * temp -
-        11.37 * Math.pow(speed, 0.16) +
-        0.3965 * temp * Math.pow(speed, 0.16)
-    ).toFixed(1);
+    return (13.12 + 0.6215 * temp - 11.37 * Math.pow(speed, 0.16) + 0.3965 * temp * Math.pow(speed, 0.16)).toFixed(1);
 }
 
 async function checkWeather(city) {

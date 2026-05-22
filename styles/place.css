@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 :root {
     --primary-color: #009739;
-    --secondary-color: #FFDF00;
+    --secondary-color: #D4AF00;
     --accent-color: #002776;
     --background-color: #ffffff;
     --text-on-dark-bg: #ffffff;
@@ -27,6 +27,8 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 
@@ -87,12 +89,15 @@ header h1 {
 
 .card-title.weather-title::after {
     content: " ⛅";
+    font-size: 1.8rem;
 }
 
 .card-content {
     padding: 25px;
     line-height: 1.8;
     font-size: 1.1rem;
+    text-align: center;
+    padding: 48px 24px;
 }
 
 .card-content p {
@@ -133,6 +138,10 @@ footer p:first-child {
         min-height: auto;
         padding: 0;
         background: #f3f3f3;
+    }
+    
+    img {
+        display: block;
     }
 
     .hero-picture {

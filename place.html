@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fortaleza - Brazil</title>
+    <title>Fortaleza, Brazil | Weather and City Information</title>
     <link rel="stylesheet" href="./styles/place.css">
     <script src="./scripts/place.js" defer></script>
     <script src="./scripts/weather.js" defer></script>
+    <meta name="description"
+        content="Discover Fortaleza, Brazil with weather information, local data, and responsive design.">
 </head>
 
 <body>
@@ -18,15 +20,16 @@
             <h1 id="city">Fortaleza</h1>
         </header>
 
-        <section class="hero">
+        <main class="hero">
             <picture class="hero-picture">
-            
+
                 <source srcset="./images/hero-large.webp" media="(min-width: 901px)">
-            
+
                 <source srcset="./images/hero-small.webp" media="(max-width: 900px)">
-            
-                <img src="./images/hero-large.webp" alt="Fortaleza Brazil Landscape" class="hero-image">
-            
+
+                <img src="./images/hero-large.webp" alt="Beach landscape in Fortaleza, Ceará, Brazil"
+                    class="hero-image" loading="lazy">
+
             </picture>
 
             <div class="card">
@@ -126,7 +129,7 @@
 
             </div>
 
-        </section>
+        </main>
 
         <footer>
             <p>©<span id="currentyear"></span> Bruno Rafael Torres Candido</p>
@@ -136,4 +139,5 @@
     </div>
 
 </body>
+
 </html>
