@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
 :root {
     --primary-color: #023E8A;
     --secondary-color: #003049;
@@ -106,4 +104,22 @@ footer {
     text-align: center;
     padding: 1.5rem;
     margin-top: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+
+    main {
+        width: 95%;
+        padding: 1rem;
+    }
+
+    .rating-group {
+        flex-direction: column;
+    }
+
+    input,
+    select,
+    textarea {
+        width: 100%;
+    }
 }
