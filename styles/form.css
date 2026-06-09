@@ -96,6 +96,10 @@ input[type="submit"] {
     cursor: pointer;
 }
 
+#reviewCountContainer {
+    color: var(--text-on-dark-bg);
+}
+
 footer {
     background-color: var(--primary-color);
     color: var(--text-on-dark-bg);
