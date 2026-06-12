@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Explore Ceará | Contact</title>
+
+    <meta name="description"
+        content="Get in touch with Explore Ceará for travel questions and destination information.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="./scripts/contact.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="container nav-container">
+            <a href="./index.html" class="logo">
+                Explore Ceará
+            </a>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./destinations.html">Destinations</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+        <!-- HERO -->
+        <section class="page-hero">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p>
+                    We'd love to help you plan your adventure in Ceará.
+                </p>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="contact-section">
+            <div class="container contact-grid">
+                <!-- LEFT SIDE -->
+                <div class="contact-info">
+                    <h2>Let's Talk</h2>
+                    <p>
+                        Have questions about Ceará's beaches, attractions, or the best time to visit?
+                        Send us a message and we'll be happy to help.
+                    </p>
+                    <div class="info-box">
+                        <h3>Email</h3>
+                        <p>info@exploreceara.com</p>
+                    </div>
+                    <div class="info-box">
+                        <h3>Location</h3>
+                        <p>Fortaleza, Ceará, Brazil</p>
+                    </div>
+                    <div class="info-box">
+                        <h3>Hours</h3>
+                        <p>Monday - Friday</p>
+                        <p>9:00 AM - 6:00 PM</p>
+                    </div>
+                </div>
+
+                <!-- RIGHT SIDE -->
+                <div class="contact-form-container">
+                    <form class="contact-form" method="get" action="./thankyou.html">
+                        <div class="form-group">
+                            <label for="name">
+                                Full Name
+                            </label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">
+                                Email Address
+                            </label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="destination">
+                                Destination of Interest
+                            </label>
+
+                            <select id="destination" name="destination">
+                                <option value="">Select One</option>
+                                <option>Jericoacoara</option>
+                                <option>Praia do Futuro</option>
+                                <option>Canoa Quebrada</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">
+                                Message
+                            </label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+
+                        <button class="submit-btn">
+                            Send Message
+                        </button>
+
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+
+        <div class="container">
+
+            <h2>Explore Ceará</h2>
+
+            <p>
+                Beaches • Culture • Adventure
+            </p>
+
+            <p>
+                © 2026 Explore Ceará
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
